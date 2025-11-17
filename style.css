@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Lexend:wght@100..900&display=swap');
+
+
+
+:root{
+    --olive-bark: #776621ff;
+    --wheat: #FAE2B6ff;
+    --slate-grey: #7387A0ff;
+    --sandy-clay: #D9A56Cff;
+    --chocolate-brown: #9C4F21ff;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Lexend', sans-serif;
+    color: var(--olive-bark);
+    background-color: var(--wheat);
+    padding: 1rem 0rem;
+    margin: 0
+}
+
+header{
+    background-color: var(--slate-grey);
+    color: var(--sandy-clay);
+    width: 100vw;
+    height: 5vh;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title{
+    display: inline-block;
+    color: var(--chocolate-brown);
+}
+
+.title > h1{
+    font-family: "Ewert", serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p{
+    text-align: justify;
+}
+
